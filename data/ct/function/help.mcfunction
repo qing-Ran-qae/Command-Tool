@@ -1,0 +1,3 @@
+tellraw @s [{"text":"CT - help","color":"#3f88e8"}]
+tellraw @s [{"text": "  "},{"translate": "text.ct.help.line1","fallback": "当前版本：","color": "#25d5dc"},{"storage":"ct:packmeta","nbt":"version.id"},{"text": " | ","color": "#25d5dc"},{"storage": "ct:packmeta","nbt": "version.type"}]
+tellraw @s [{"text": "  "},{"translate": "text.ct.help.line2","fallback": "临时主页","color": "#50e3c2","underlined": true,"clickEvent": {"action": "open_url","value": "https://docs.qq.com/aio/DV3hyV09kUFpuWnVP"}}]

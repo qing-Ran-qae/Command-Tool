@@ -1,0 +1,8 @@
+{
+    "replace": false,
+    "values": [
+        "ct:pack_base/load/message",
+        "ct:pack_base/load/init",
+        "ct:pack_base/load/packmeta"
+    ]
+}

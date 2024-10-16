@@ -1,0 +1,23 @@
+{
+    "pack": {
+        "pack_format": 48,
+        "supported_formats": [48,114514],
+        "description": [
+            {"text": "C","color":"#1fc7e6"},
+            {"text": "T","color":"#28cbd9"},
+            {"text": " - \n  ","color":"#30cfcd"},
+            {"text": "c","color":"#39d4c0"},
+            {"text": "o","color":"#41d8b3"},
+            {"text": "m","color":"#4adca7"},
+            {"text": "m","color":"#52e19a"},
+            {"text": "a","color":"#5be58e"},
+            {"text": "n","color":"#63e981"},
+            {"text": "d","color":"#6cee74"},
+            {"text": "t","color":"#74f268"},
+            {"text": "o","color":"#7df65b"},
+            {"text": "o","color":"#85fb4f"},
+            {"text": "l","color":"#8eff42"},
+            {"text": "\n文档见数据包文件内的docs目录","color":"#25d5dc"}
+        ]
+    }
+}
