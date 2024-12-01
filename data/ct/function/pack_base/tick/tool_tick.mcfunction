@@ -1,7 +1,9 @@
 #> ct:pack_base/tick/tool_tick
 
+function ct:_test/2
+
 # code
     ## dv
-    execute if data storage ct:settings tool_ena.code{dv:true} run function ct:code/dv
+    
     ## stat
-    execute if data storage ct:settings tool_ena.code{stat:true} run function ct:code/stat
+    

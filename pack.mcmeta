@@ -1,7 +1,7 @@
 {
     "pack": {
-        "pack_format": 48,
-        "supported_formats": [48,114514],
+        "pack_format": 57,
+        "supported_formats": [57,114514],
         "description": [
             {"text": "C","color":"#1fc7e6"},
             {"text": "T","color":"#28cbd9"},
