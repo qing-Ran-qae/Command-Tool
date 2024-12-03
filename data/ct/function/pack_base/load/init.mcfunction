@@ -12,7 +12,3 @@ execute \
 #...
 
 # code
-    ## ds
-    scoreboard objectives add ct.code.dv dummy
-    data modify storage ct:code.dv clock set value 0
-    scoreboard players set clock ct.code.dv 0

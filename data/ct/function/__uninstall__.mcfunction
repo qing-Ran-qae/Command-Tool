@@ -12,6 +12,5 @@ data remove storage ct:packmeta confirm_uninstall
 datapack disable "file/Command-Tool"
 
 scoreboard objectives remove ct.packmeta
-scoreboard objectives remove ct.code.dv
 
-tellraw @a [{"text":"CT\n  ","color":"#3f88e8"},{"translate": "text.ct.uninstall.line2","color": "#25d5dc"}]
+tellraw @a [{"translate": "text.ct.uninstall.line3","color": "#25d5dc"}]
