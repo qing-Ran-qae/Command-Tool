@@ -1,11 +1,15 @@
+#> ct:code/pt/meth/run_commands/1
+#
+# @within ct:code/pt/meth/run_commands
+
 # 遍历 ct:code.pt.run_commands tmp.commands
 
-# 转存命令
+# 转存当前命令
 $execute \
     store success storage ct:code.pt.run_commands tmp.has_item int 1 \
     run data modify storage ct:code.pt.run_commands tmp.curr_command set from storage ct:code.pt.run_commands tmp.commands[$(index)]
 
-# 如果不存在当前元素则以遍历完列表
+# 如果不存在当前元素则表示已遍历完列表
 execute \
     unless data storage ct:code.pt.run_commands tmp{has_item:1} \
     run return 0

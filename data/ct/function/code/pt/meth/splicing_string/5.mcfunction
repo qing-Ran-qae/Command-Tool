@@ -1,0 +1,1 @@
+$data modify $(out) set from storage ct:code.pt.splicing_string tmp.result

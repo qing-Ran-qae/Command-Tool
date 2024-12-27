@@ -1,4 +1,6 @@
 #> ct:uninstall
+#
+# @user
 
 tellraw @a [{"text":"CT - uninstall\n","color":"#3f88e8"},{"translate": "text.ct.uninstall.line1","with": [{"selector": "@s"}],"color": "#25d5dc"}]
 execute \

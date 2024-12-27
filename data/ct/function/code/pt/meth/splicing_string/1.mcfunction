@@ -1,0 +1,1 @@
+$data modify storage ct:code.pt.splicing_string tmp.in set from $(in)
