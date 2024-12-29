@@ -1,3 +1,9 @@
+#> ct:code/pt/meth/splicing_string
+#
+# @user
+# @public
+# @api
+
 # 变量
 $data modify storage ct:code.pt.splicing_string tmp set value $(with)
 scoreboard objectives add ct.t-code.pt.splicing_string dummy

@@ -5,20 +5,24 @@
 # 转存当前元素
 $execute \
     store success storage ct:code.pt.for_in_list tmp.has_item int 1 \
-    run data modify storage ct:code.pt.for_in_list tmp.curr_item set from storage ct:code.pt.for_in_list tmp.in[$(index)]
+    run data modify storage ct:code.pt.for_in_list tmp.curr_item_staging set from storage ct:code.pt.for_in_list tmp.in_list[$(index)]
+data modify storage ct:code.pt.for_in_list tmp.curr_item set from storage ct:code.pt.for_in_list tmp.curr_item_staging
 
 # 如果不存在当前元素就是遍历完了
 execute \
     if data storage ct:code.pt.for_in_list tmp{has_item:0} \
     run return 0
 
-# 执行自定义内容
+# run参数
 $$(run)
 
 # end参数
 execute \
     if score end ct.t-code.pt.for_in_list = index ct.t-code.pt.for_in_list \
     run return 0
+
+# out参数
+data modify storage ct:code.pt.for_in_list tmp.result append from storage ct:code.pt.for_in_list tmp.curr_item
 
 # 循环(递归)以遍历列表
 execute \

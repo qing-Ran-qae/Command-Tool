@@ -1,1 +1,0 @@
-function ct:code/pt/meth/splicing_string {with:{in:"storage test list",out:"storage test key",sep:","}}

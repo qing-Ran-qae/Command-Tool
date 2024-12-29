@@ -2,11 +2,11 @@
 
 ## 简介
 
-CT(CommandTool)是一个提供了一些小工具的数据包<br>
-这些工具并没有一个固定的主题或是主要功能
+CT(CommandTool)是一个比较简陋的数据包lib<br>
+它仅仅只是作者在遇到问题时随手写的几个方便自己的函数，所以并没有多少功能和防误操作措施
 
-也推荐使用[bookshelf](https://github.com/mcbookshelf/Bookshelf)来辅助您的开发<br>
-CT会尽量不制作和bokkshelf功能重复的工具
+此外，也推荐使用[bookshelf](https://github.com/mcbookshelf/Bookshelf)来辅助开发<br>
+CT会尽量不制作和这个数据包功能重复的工具
 
 ## 使用工具
 

@@ -1,3 +1,7 @@
+#> ct:code/pt/meth/splicing_string/2
+#
+# @within ct:code/pt/meth/splicing_string
+
 # 转存当前元素
 $execute \
     store success storage ct:code.pt.splicing_string tmp.has_item int 1 \
