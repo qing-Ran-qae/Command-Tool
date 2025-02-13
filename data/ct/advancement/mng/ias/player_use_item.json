@@ -1,0 +1,10 @@
+{
+    "criteria": {
+        "_": {
+            "trigger": "consume_item"
+        }
+    },
+    "rewards": {
+        "function": "ct:mng/ias/player_use_item"
+    }
+}

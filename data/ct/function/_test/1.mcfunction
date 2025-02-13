@@ -1,0 +1,1 @@
+function ct:mng/room/meth/sg {id:"测试"}

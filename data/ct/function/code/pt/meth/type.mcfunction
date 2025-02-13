@@ -72,11 +72,6 @@ execute \
     if data storage ct:code.pt.type tmp{text_comp:true} \
     run function ct:code/pt/meth/type/text_comp with storage ct:code.pt.type tmp
 
-# 目标选择器(selector)
-execute \
-    if data storage ct:code.pt.type tmp{selector:true} \
-    run function ct:code/pt/meth/type/selector with storage ct:code.pt.type tmp
-
 # 输出结果
 data modify storage ct:data o set from storage ct:code.pt.type tmp.result
 

@@ -12,4 +12,20 @@ execute \
 #...
 
 # code
-#...
+    # et
+    scoreboard objectives add ct.code.et.pbts custom:leave_game
+    #scoreboard objectives add ct.code.et.pdd-v
+    #scoreboard objectives add ct.code.et.pdd-n
+    #scoreboard objectives add ct.code.et.pj
+    #scoreboard objectives add ct.code.et.pfc
+    #scoreboard objectives add ct.code.et.pd-v
+    #scoreboard objectives add ct.code.et.pd-n
+    #scoreboard objectives add ct.code.et.pkp-v
+    #scoreboard objectives add ct.code.et.pkp-n
+    #scoreboard objectives add ct.code.et.pkm-v
+    #scoreboard objectives add ct.code.et.pkm-n
+    #scoreboard objectives add ct.code.et.ptwv
+    #scoreboard objectives add ct.code.et.gb
+    #scoreboard objectives add ct.code.et.go
+    #scoreboard objectives add ct.code.et.pjg
+    #scoreboard objectives add ct.code.et.plg

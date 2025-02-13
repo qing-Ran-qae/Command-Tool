@@ -1,3 +1,7 @@
+#> ct:mng/ds/meth/create_tmpl/1
+#
+# @within ct:mng/ds/meth/create_tmpl
+
 # 检测是否和已有模板重名
 $execute \
     if data storage ct:mng.ds.create_tmpl tmpl_table.$(name) \
