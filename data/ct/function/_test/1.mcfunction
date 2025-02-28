@@ -1,1 +1,1 @@
-function ct:mng/room/meth/sg {id:"测试"}
+function ct:mng/room/meth/dr {id:room1}

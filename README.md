@@ -2,7 +2,9 @@
 
 ## 简介
 
-CT(CommandTool)是一个比较简陋的lib<br>
+CT(CommandTool)是一个比较简陋的lib
+
+它并没有一个主题，其内容主要是作者遇到问题后想出的方案
 
 ## 同类项目
 

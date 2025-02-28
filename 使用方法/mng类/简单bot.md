@@ -10,12 +10,12 @@
 
 ## 方法
 
-### 创建bot
+### 创建bot(``)
 
 **输入**
 
 ```
-执行信息
+上下文信息
 execute at|positioned entity|pos run function this  - 可选项，在指定位置生成新的bot
 
 函数宏
@@ -29,5 +29,5 @@ execute at|positioned entity|pos run function this  - 可选项，在指定位�
 ```
 ```
 
-### 删除bot
+### 删除bot(``)
 
